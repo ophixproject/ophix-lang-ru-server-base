@@ -1,10 +1,12 @@
 # ophix-lang-ru-server-base
 
+> Русский языковой пакет для ophix-server-base.
+
 Russian translation pack for [ophix-server-base](https://ophix.io).
 
 ## Install
 
-```
+```bash
 pip install ophix-lang-ru-server-base
 ```
 
