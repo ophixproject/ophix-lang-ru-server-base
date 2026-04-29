@@ -1,7 +1,7 @@
 ---
 title: Быстрый старт клиента
 slug: client-quickstart
-order: 5
+order: 20
 section: Начало работы
 ---
 

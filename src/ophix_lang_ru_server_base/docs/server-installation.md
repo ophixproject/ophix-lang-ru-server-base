@@ -1,7 +1,7 @@
 ---
 title: Установка сервера
 slug: server-installation
-order: 1
+order: 10
 section: Начало работы
 ---
 
