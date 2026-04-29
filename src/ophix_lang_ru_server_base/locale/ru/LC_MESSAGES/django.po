@@ -3,10 +3,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ophix-server-base 2026.04.25.01\n"
+"Project-Id-Version: ophix-server-base 2026.04.29.04\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-25 00:00+0000\n"
-"PO-Revision-Date: 2026-04-25 00:00+0000\n"
+"POT-Creation-Date: 2026-04-29 00:00+0000\n"
+"PO-Revision-Date: 2026-04-29 00:00+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -24,29 +24,133 @@ msgid "Token"
 msgstr "Токен"
 
 #: src/ophix/core/models.py
+msgid "name"
+msgstr "название"
+
+#: src/ophix/core/models.py
+msgid "IPv4 address"
+msgstr "IPv4-адрес"
+
+#: src/ophix/core/models.py
+msgid "description"
+msgstr "описание"
+
+#: src/ophix/core/models.py
+msgid "enabled"
+msgstr "включено"
+
+#: src/ophix/core/models.py
+msgid "Host"
+msgstr "Хост"
+
+#: src/ophix/core/models.py
+msgid "Hosts"
+msgstr "Хосты"
+
+#: src/ophix/core/models.py
+msgid "host"
+msgstr "хост"
+
+#: src/ophix/core/models.py
+msgid "deployment reference"
+msgstr "ссылка на развёртывание"
+
+#: src/ophix/core/models.py
 msgid "Deployment reference (repository name or similar identifier)"
 msgstr "Ссылка на развёртывание (имя репозитория или аналогичный идентификатор)"
+
+#: src/ophix/core/models.py
+msgid "virtual environment name"
+msgstr "имя виртуального окружения"
 
 #: src/ophix/core/models.py
 msgid "Name of the Python virtual environment"
 msgstr "Имя виртуального окружения Python"
 
 #: src/ophix/core/models.py
+msgid "virtual environment path"
+msgstr "путь к виртуальному окружению"
+
+#: src/ophix/core/models.py
 msgid "Absolute path to the Python virtual environment"
 msgstr "Абсолютный путь к виртуальному окружению Python"
+
+#: src/ophix/core/models.py
+msgid "API token"
+msgstr "API-токен"
+
+#: src/ophix/core/models.py
+msgid "last token rotation"
+msgstr "последняя ротация токена"
+
+#: src/ophix/core/models.py
+msgid "Client"
+msgstr "Клиент"
+
+#: src/ophix/core/models.py
+msgid "Clients"
+msgstr "Клиенты"
+
+#: src/ophix/core/models.py
+msgid "client"
+msgstr "клиент"
 
 #: src/ophix/core/models.py
 msgid "Client can read this artifact (can_read)."
 msgstr "Клиент может читать этот артефакт (can_read)."
 
 #: src/ophix/core/models.py
+msgid "can update"
+msgstr "может обновлять"
+
+#: src/ophix/core/models.py
 msgid "Client may overwrite this artifact."
 msgstr "Клиент может перезаписать этот артефакт."
+
+#: src/ophix/core/models.py
+msgid "can delete"
+msgstr "может удалять"
 
 #: src/ophix/core/models.py
 msgid "Client may delete this artifact."
 msgstr "Клиент может удалить этот артефакт."
 
 #: src/ophix/core/models.py
+msgid "can share"
+msgstr "может делиться"
+
+#: src/ophix/core/models.py
 msgid "Reserved: future client-driven sharing. Currently unused."
 msgstr "Зарезервировано: совместный доступ по инициативе клиента (в разработке). Пока не используется."
+
+#: src/ophix/core/models.py
+msgid "notes"
+msgstr "заметки"
+
+#: src/ophix/core/models.py
+msgid "operation"
+msgstr "операция"
+
+#: src/ophix/core/models.py
+msgid "artifact type"
+msgstr "тип артефакта"
+
+#: src/ophix/core/models.py
+msgid "artifact name"
+msgstr "имя артефакта"
+
+#: src/ophix/core/models.py
+msgid "artifact ID"
+msgstr "ID артефакта"
+
+#: src/ophix/core/models.py
+msgid "timestamp"
+msgstr "временная метка"
+
+#: src/ophix/core/models.py
+msgid "Access Log"
+msgstr "Журнал доступа"
+
+#: src/ophix/core/models.py
+msgid "Access Logs"
+msgstr "Журналы доступа"
